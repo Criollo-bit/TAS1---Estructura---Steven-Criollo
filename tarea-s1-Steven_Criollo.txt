@@ -1,0 +1,19 @@
+   14  cd OneDrive/Escritorio/
+   15  [200~
+   16  cd OneDrive/Escritorio/
+   17  mkdir proyecto_comandos
+   18  cd ..
+   19  cd proyecto_comandos
+   20  cd Escritorio/proyecto_comandos/
+   21  mkdir documentos imagenes scripts
+   22  cd documentos/
+   23  echo -e "primera linea de notas\nSegunda linea importante\ntercera linea de referencia" > notas.txt
+   24  cp notas.txt ../scripts/backup_notas.txt
+   25  mv ../scripts/backup_notas.txt ../imagenes/
+   26  cat notas.txt > resumen.txt
+   27  echo "esta es una linea adicional para el resumen xd" >> resumen.txt
+   28  rm ../imagenes/backup_notas.txt
+   29  rmdir ../imagenes
+   30  history | tail -n 20 > tarea-s1-Steven_Criollo.txt
+   31  history > tarea-s1-Steven_Criollo.txt
+   32  history | grep -A 100 "cd OneDrive/Escritorio/" > tarea-s1-Steven_Criollo.txt
