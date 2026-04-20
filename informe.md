@@ -11,11 +11,11 @@ Creación y manipulación de estructuras de archivos y directorios en entornos C
 
 La interfaz de línea de comandos (CLI) es una herramienta técnica fundamental en la administración avanzada de sistemas operativos basados en Unix y distribuciones de Linux. A diferencia de las interfaces gráficas de usuario (GUI), que dependen de la interacción visual la terminal establece un canal de comunicación directo y potente con el Kernel del sistema. Esta interacción se produce a través de un intérprete de comandos denominado Shell el cual traduce las instrucciones del usuario en procesos ejecutables por el núcleo del hardware permitiendo una gestión de recursos más granular y veloz.
 
-![Captura cli](img/imagen-1.png)
+![Captura cli](img/image-1.png)
 
 Uno de los pilares conceptuales de Linux es su jerarquía de archivos. El sistema organiza toda su estructura de forma ramificada, naciendo desde un punto de origen común conocido como el directorio raíz (/). Comprender esta organización es vital, ya que en este entorno "todo es un archivo". El dominio de comandos de navegación como cd (Change Directory) y de creación como mkdir (Make Directory) otorga al administrador la capacidad de estructurar entornos de desarrollo de manera lógica y eficiente. Además, la distinción entre rutas absolutas (desde la raíz) y rutas relativas (desde la ubicación actual) es una habilidad técnica que minimiza errores al operar en servidores remotos o entornos de despliegue real.
 
-![Captura de jerarquia de archivos](img/imagen-2.png)
+![Captura de jerarquia de archivos](img/image-2.png)
 
 Por otro lado, la manipulación de datos se vuelve una tarea sistemática mediante el uso de comandos como cp (copy) y mv (move). Mientras que el primero permite duplicar información para generar respaldos críticos, el segundo es una herramienta versátil que facilita tanto la reubicación física de los datos como el renombrado de archivos en una sola operación atómica. Esta eficiencia es inalcanzable mediante métodos visuales cuando se manejan grandes volúmenes de directorios. Asimismo, el uso del comando rmdir refuerza la seguridad del sistema, ya que exige que los directorios estén vacíos antes de su eliminación, actuando como una salvaguarda contra la pérdida accidental de datos estructurados.
 
